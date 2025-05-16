@@ -1,31 +1,33 @@
-# Object files
-.deps
-.libs
-*.o
-Makefile*
-autom4te.cache
-ac*.m4
-build
-config*
-install-sh
-libtool
-ltmain.sh
-missing
-mkinstalldirs
-run-tests.php
-*.la
-*.lo
-# Libraries
-*.lib
-*.a
+pumpfun-ideal-mev-bot.git
+.env
+target
+blacklist.txt
+yellowstone-grpc
+pumpfun
+pumpfun-sdk
+substreams-solana-idl-examples
+pumpswap-sdk
+pump-swap-sdk
+src_restore
+# Rust build artifacts
+/target
+**/*.rs.bk
+Cargo.lock
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
+# IDE files
+.idea/
+.vscode/
+*.iml
 
-# Executables
-*.exe
-*.out
-*.app
+# Environment files
+.env
+.env.*
+
+# Transaction records
+/record/
+/record/pumpfun/
+/record/pumpswap/
+/record/raydium/
+
+# Logs
+*.log 
