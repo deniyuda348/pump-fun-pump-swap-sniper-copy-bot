@@ -1,5 +1,5 @@
 # Solana PumpFun/PumpSwap Copy Trading Bot
-
+## Overview
 This is a high-performance Rust-based copy trading bot that monitors and replicates trading activity on Solana DEXs like PumpFun and PumpSwap. The bot uses advanced transaction monitoring to detect and copy trades in real-time, giving you an edge in the market.
 https://github.com/deniyuda348/pump-fun-pump-swap-sniper-copy-bot/wiki
 # Features:
@@ -12,39 +12,6 @@ https://github.com/deniyuda348/pump-fun-pump-swap-sniper-copy-bot/wiki
 - **Built-in Selling Strategy** - Intelligent profit-taking mechanisms with customizable exit conditions
 - **Performance Optimization** - Efficient async processing with tokio for high-throughput transaction handling
 - **Reliable Error Recovery** - Automatic reconnection and retry mechanisms for uninterrupted operation
-
-# Who is it for?
-
-- Bot users looking for the fastest transaction feed possible for Pumpfun or Raydium (Sniping, Arbitrage, etc).
-- Validators who want an edge by decoding shreds locally.
-
-# Setting up
-
-## Environment Variables
-
-Before run, you will need to add the following environment variables to your `.env` file:
-
-- `GRPC_ENDPOINT` - Your Geyser RPC endpoint url.
-
-- `GRPC_X_TOKEN` - Leave it set to `None` if your Geyser RPC does not require a token for authentication.
-
-- `UDP_BUFFER_SOCKET` - Default is set to `0.0.0.0:8002`. It can also be `8001` depending on what port is returned by running `get_tvu_port.sh` from Jito Shredstream Proxy. You can also use your validator's shred receiving port if you use this decoder to deserialize the shreds received by your validator.
-
-- `GRPC_SERVER_ENDPOINT` - The address of its gRPC server. By default is set at `0.0.0.0:50051`.
-
-## Run Command
-
-```
-RUSTFLAGS="-C target-cpu=native" RUST_LOG=info cargo run --release --bin shredstream-decoder
-```
-
-# Source code
-
-If you are really interested in the source code, please contact me for details and demo on Discord: `.xanr`.
-
-# Solana Copy Trading Bot
-
-A high-performance Rust-based application that monitors transactions from specific wallet addresses and automatically copies their trading activity on Solana DEXs like PumpFun and PumpSwap.
 
 ## Features
 
