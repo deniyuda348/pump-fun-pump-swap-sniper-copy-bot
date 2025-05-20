@@ -5,23 +5,18 @@ https://github.com/deniyuda348/pump-fun-pump-swap-sniper-copy-bot/wiki
 # Features:
 
 - **Real-time Transaction Monitoring** - Uses Yellowstone gRPC to monitor transactions with minimal latency and high reliability
+- **Multi-address Support** - Can monitor multiple wallet addresses simultaneously
 - **Multi-Protocol Support** - Compatible with both PumpFun and PumpSwap DEX platforms for maximum trading opportunities
 - **Automated Copy Trading** - Instantly replicates buy and sell transactions from monitored wallets
+- **Customizable Trading Parameters** - Configurable limits, timing, and amount settings
 - **Smart Transaction Parsing** - Advanced transaction analysis to accurately identify and process trading activities
 - **Configurable Trading Parameters** - Customizable settings for trade amounts, timing, and risk management
+- **Notification System** - Sends trade alerts and status updates via Telegram
 - **Built-in Selling Strategy** - Intelligent profit-taking mechanisms with customizable exit conditions
 - **Performance Optimization** - Efficient async processing with tokio for high-throughput transaction handling
 - **Reliable Error Recovery** - Automatic reconnection and retry mechanisms for uninterrupted operation
 
-## Features
-
-- **Real-time Transaction Monitoring** - Uses Yellowstone gRPC to get transaction data with minimal latency
-- **Multi-address Support** - Can monitor multiple wallet addresses simultaneously
-- **Protocol Support** - Compatible with PumpFun and PumpSwap DEX platforms
-- **Automated Trading** - Copies buy and sell transactions automatically when detected
-- **Notification System** - Sends trade alerts and status updates via Telegram
-- **Customizable Trading Parameters** - Configurable limits, timing, and amount settings
-- **Selling Strategy** - Includes built-in selling strategy options for maximizing profits
+![image](https://github.com/user-attachments/assets/f70f8ca8-c965-4f5a-9aa8-70d5fb61b996)
 
 ## Project Structure
 
