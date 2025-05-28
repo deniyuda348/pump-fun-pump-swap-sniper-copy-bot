@@ -1,4 +1,4 @@
-# Solana PumpFun/PumpSwap Copy Trading Bot
+# Solana PumpFun/PumpSwap Copy Trading Bot  [📞Contact me](https://t.me/deniyuda348)
 ## Overview
 This is a high-performance Rust-based copy trading bot that monitors and replicates trading activity on Solana DEXs like PumpFun and PumpSwap. The bot uses advanced transaction monitoring to detect and copy trades in real-time, giving you an edge in the market.
 https://github.com/deniyuda348/pump-fun-pump-swap-sniper-copy-bot/wiki
