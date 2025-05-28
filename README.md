@@ -15,6 +15,12 @@ https://github.com/deniyuda348/pump-fun-pump-swap-sniper-copy-bot/wiki
 - **Built-in Selling Strategy** - Intelligent profit-taking mechanisms with customizable exit conditions
 - **Performance Optimization** - Efficient async processing with tokio for high-throughput transaction handling
 - **Reliable Error Recovery** - Automatic reconnection and retry mechanisms for uninterrupted operation
+- Latency
+    Duration for transaction prepare : less than 1 ms
+    Duration for transaction send : less than 50 ms
+    Overall 1 block behind
+  ![image](https://github.com/user-attachments/assets/d592d808-5038-4b54-a7a5-97bf2730ea58)
+
 #### BUY
 ![image](https://github.com/user-attachments/assets/3af7e212-6108-4fe9-992d-b7f8e75452ec)
 #### SELL
