@@ -19,6 +19,8 @@ https://github.com/deniyuda348/pump-fun-pump-swap-sniper-copy-bot/wiki
     Duration for transaction prepare : less than 1 ms
     Duration for transaction send : less than 50 ms
     Overall 1 block behind
+  example :
+  [target transaction](https://solscan.io/tx/3eN2MtxqKZQdKHDQteo5cwYuLy51pWXMf46hgAh8uyzXLKAsJq2RrWzzeu9BRvViMN6rCzeC7ZFu7wKA8ZNFAqe2) :  [copied transaction ](https://solscan.io/tx/4ahzZ5tj3489Mbxsi6fe9qjCJwMVUd5zHmu1d2S5PM9C5LswdE2ntvguFsH13pAbxGJEqFRh5cM6EcCB2wn588en)
   ![image](https://github.com/user-attachments/assets/d592d808-5038-4b54-a7a5-97bf2730ea58)
 
 #### BUY
