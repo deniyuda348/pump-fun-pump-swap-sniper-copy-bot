@@ -22,3 +22,6 @@ https://github.com/deniyuda348/pump-fun-pump-swap-sniper-copy-bot/wiki
   example :
   [target transaction](https://solscan.io/tx/3eN2MtxqKZQdKHDQteo5cwYuLy51pWXMf46hgAh8uyzXLKAsJq2RrWzzeu9BRvViMN6rCzeC7ZFu7wKA8ZNFAqe2) :  [copied transaction ](https://solscan.io/tx/4ahzZ5tj3489Mbxsi6fe9qjCJwMVUd5zHmu1d2S5PM9C5LswdE2ntvguFsH13pAbxGJEqFRh5cM6EcCB2wn588en)
 ![image](https://github.com/user-attachments/assets/8f7f1d18-6dbc-4a20-9e5f-2f4a94eb9410)
+
+## EMERGENCY SELL
+![image](https://github.com/user-attachments/assets/b11312f1-0d4c-4fe4-8535-c390218a998a)
