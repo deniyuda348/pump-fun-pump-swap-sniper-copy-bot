@@ -25,3 +25,56 @@ https://github.com/deniyuda348/pump-fun-pump-swap-sniper-copy-bot/wiki
 
 ## EMERGENCY SELL
 ![image](https://github.com/user-attachments/assets/b11312f1-0d4c-4fe4-8535-c390218a998a)
+
+graph TB
+    A["Token Manager"] --> B["Selling Engine"]
+    B --> C["Market Analysis"]
+    B --> D["Risk Management"]
+    B --> E["Protocol Integration"]
+    
+    F["Global State"] --> G["Token Metrics"]
+    F --> H["Token Tracking"]
+    F --> I["Historical Trades"]
+    
+    G --> A
+    H --> A
+    I --> A
+    
+    C --> J["Market Condition Detection"]
+    D --> K["Stop Loss & Take Profit"]
+    D --> L["Liquidity Monitoring"]
+    
+    E --> M["PumpFun Protocol"]
+    E --> N["PumpSwap Protocol"]
+    
+    B --> O["Progressive Selling"]
+    B --> P["Emergency Selling"]
+    
+    style A fill:#e1f5fe
+    style B fill:#f3e5f5
+    style F fill:#fff3e0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
