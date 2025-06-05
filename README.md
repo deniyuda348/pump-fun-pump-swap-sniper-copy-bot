@@ -26,6 +26,7 @@ https://github.com/deniyuda348/pump-fun-pump-swap-sniper-copy-bot/wiki
 ## EMERGENCY SELL
 ![image](https://github.com/user-attachments/assets/b11312f1-0d4c-4fe4-8535-c390218a998a)
 
+## Overall System Architecture
 ```mermaid
 graph TB
     A["Token Manager"] --> B["Selling Engine"]
@@ -50,6 +51,7 @@ graph TB
     style F fill:#fff3e0
 ```
 
+## Token Metrics Data Structure
 ```mermaid
 graph LR
     A["TokenMetrics"] --> B["Price Data"]
@@ -80,6 +82,8 @@ graph LR
     style D fill:#fce4ec
     style E fill:#f1f8e9
 ```
+
+## Selling Decision Flow
 ```mermaid
 flowchart TD
     A["Monitor Token"] --> B{"Check Time Conditions"}
@@ -111,6 +115,7 @@ flowchart TD
     style I fill:#ffcc02
     style K fill:#c8e6c9
 ```
+## Progressive Selling Strategy
 ```mermaid
 sequenceDiagram
     participant TM as Token Manager
@@ -142,6 +147,7 @@ sequenceDiagram
         SE->>TM: Remove Token
     end
 ```
+## Market Condition Analysis
 ```mermaid
 graph TD
     A["Recent Trades Data"] --> B["Price Analysis"]
@@ -175,7 +181,7 @@ graph TD
     style N fill:#ff5722
     style O fill:#2196f3
 ```
-
+## Risk Management Framework
 ```mermaid
 graph TB
     A["Risk Management"] --> B["Price Risk"]
@@ -204,8 +210,43 @@ graph TB
     style D1 fill:#e1f5fe
     style E1 fill:#fce4ec
 ```
-
-
-
+## Emergency Selling Process
+```mermaid
+flowchart TD
+    A["Emergency Trigger"] --> B["Log Emergency Alert"]
+    B --> C["Get Token Balance"]
+    C --> D{"Balance > 0?"}
+    
+    D -->|No| E["Exit - Nothing to Sell"]
+    D -->|Yes| F["Create Emergency Config"]
+    
+    F --> G["Set High Slippage (10%)"]
+    G --> H["Build Emergency Trade Info"]
+    H --> I{"Select Protocol"}
+    
+    I -->|PumpFun| J["Build PumpFun Sell"]
+    I -->|PumpSwap| K["Build PumpSwap Sell"]
+    
+    J --> L["Get Recent Blockhash"]
+    K --> L
+    
+    L --> M["Execute Transaction"]
+    M --> N{"Transaction Success?"}
+    
+    N -->|Yes| O["Send Telegram Alert"]
+    N -->|No| P["Log Error"]
+    
+    O --> Q["Record Trade Execution"]
+    Q --> R["Remove from Tracking"]
+    R --> S["Update Global State"]
+    
+    P --> T["Retry Logic"]
+    
+    style A fill:#ff5252
+    style B fill:#ff7043
+    style F fill:#ff9800
+    style O fill:#4caf50
+    style P fill:#f44336
+```
 
 
