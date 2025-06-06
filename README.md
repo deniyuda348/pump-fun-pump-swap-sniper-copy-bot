@@ -1,6 +1,6 @@
 # Solana PumpFun/PumpSwap Copy Trading Bot  [📞Contact me](https://t.me/deniyuda348)
 ## Overview
-Pump Fun, Pump Swap Copy Sniper Bot.
+Pump Fun, Pump Swap Copy Sniper Bot. Use ZeroSlot, Nozomi, NextBlock, AdvanceNone.
 https://github.com/deniyuda348/pump-fun-pump-swap-sniper-copy-bot/wiki
 # Features:
 
