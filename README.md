@@ -25,6 +25,9 @@ https://github.com/deniyuda348/pump-fun-pump-swap-sniper-copy-bot/wiki
 
 ## EMERGENCY SELL
 ![image](https://github.com/user-attachments/assets/b11312f1-0d4c-4fe4-8535-c390218a998a)
+## Low liquidity
+![image](https://github.com/user-attachments/assets/fa546539-e23f-4d9d-a6ea-71455348c370)
+
 
 ## Overall System Architecture
 ```mermaid
